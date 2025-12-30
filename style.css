@@ -1,0 +1,85 @@
+
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#2f2f2f;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.calc{
+    width: 720px;
+    max-width: 92vw;
+}
+
+.screen{
+    height: 140px;
+    background:#9fd3d6;
+    border: 6px solid #6f6f6f;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    padding: 18px 22px;
+ }
+
+.result{
+    font-size: 64px;
+    color:#4f6d73;
+    line-height:1;
+}
+
+.panel{
+    background:#efefef;
+    border: 6px solid #6f6f6f;
+    border-top: 0;
+    padding: 26px 26px 22px;
+    display:flex;
+    gap: 14px;
+    align-items:flex-end;
+    flex-wrap:wrap;
+}
+
+.field{
+    display:flex;
+    flex-direction:column;
+    gap:6px;
+}
+
+label{
+    font-size: 14px;
+    color:#4b4b4b;
+}
+
+input, select{
+    height: 44px;
+    width: 140px;
+    padding: 8px 10px;
+    font-size: 20px;
+    border: 2px solid #bdbdbd;
+    outline: none;
+    background:#fff;
+}
+
+select{
+    width: 110px;
+    font-size: 22px;
+}
+
+.btn{
+    height: 54px;
+    padding: 0 22px;
+    font-size: 28px;
+    border: 0;
+    background:#676767;
+    color:#fff;
+}
+
+.msg{
+    margin-top: 10px;
+    min-height: 22px;
+    color: #ffd6d6;
+    font-size: 16px;
+}
